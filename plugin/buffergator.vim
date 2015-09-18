@@ -95,10 +95,10 @@ if !exists('g:buffergator_suppress_keymaps') || !g:buffergator_suppress_keymaps
     " nnoremap <silent> z: :BuffergatorTabsToggle<CR>
     nnoremap <silent> <Leader>b :BuffergatorOpen<CR>
     nnoremap <silent> <Leader>B :BuffergatorClose<CR>
-    nnoremap <silent> <Leader>t :BuffergatorTabsOpen<CR>
+    nnoremap <silent> <Leader>4 :BuffergatorTabsOpen<CR>
     nnoremap <silent> <Leader>to :BuffergatorTabsOpen<CR>
     nnoremap <silent> <Leader>tc :BuffergatorTabsClose<CR>
-    nnoremap <silent> <Leader>T :BuffergatorTabsClose<CR>
+    nnoremap <silent> <Leader>$ :BuffergatorTabsClose<CR>
     if !exists('g:buffergator_suppress_mru_switching_keymaps') || !g:buffergator_suppress_mru_switching_keymaps
         nnoremap <silent> <M-b> :BuffergatorMruCyclePrev<CR>
         nnoremap <silent> <M-S-b> :BuffergatorMruCycleNext<CR>
